@@ -14,7 +14,7 @@ import java.io.IOException;
 
 
 @Singleton
-public class HomeServlet extends HttpServlet {
+public final class HomeServlet extends HttpServlet {
 
   private final DatastoreClient datastore;
 

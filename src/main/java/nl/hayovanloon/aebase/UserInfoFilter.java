@@ -16,7 +16,7 @@ import java.io.IOException;
 
 
 @Singleton
-public class UserInfoFilter implements Filter {
+public final class UserInfoFilter implements Filter {
 
   private final UserInfoServiceClient userInfoServiceClient;
 
